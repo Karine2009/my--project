@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+}
+nav .nav .nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav .nav_menu a {
+  display: flex;
+  align-items: center;
+  width: 556px;
+  margin: 9px 333px 11px 311px;
+  padding-left: 100px;
+  color: #F7F5F0;
+  text-decoration: none;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 17px;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  nav .nav .nav_menu {
+    flex-wrap: nowrap;
+  }
+}
+
+header .header {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  gap: 64px;
+}
+header .header .header_left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 488px;
+}
+header .header .header_left h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  width: 488px;
+  margin-left: 100px;
+  margin-right: 53px;
+  font-size: 54px;
+  color: #000000;
+  line-height: 64.8px;
+  font-style: normal;
+  letter-spacing: 0.6px;
+}
+header .header .header_left p {
+  font-family: Roboto;
+  margin: 28px 2px 39px 282px;
+  width: 357px;
+  height: 101px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  letter-spacing: 0.36px;
+}
+header .header .header_btns a {
+  color: #FFFFFF;
+  background: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 15px 30px 16px 30px;
+  line-height: 15.6px;
+  letter-spacing: 0.71px;
+  margin-left: 40px;
+}
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+    flex-wrap: wrap;
+  }
+  header .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  header .header .header_left {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+  }
+  header .header .header_left h1 {
+    width: 300px;
+    font-size: 35px;
+  }
+  header .header .header_left p {
+    width: 300px;
+  }
+  header .header .header_left_btns a {
+    width: 100%;
+  }
+  header .header .header_right .header_right_img img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
