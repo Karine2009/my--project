@@ -13,12 +13,15 @@ $mobileS: 480px;
 
 * {
     box-sizing: border-box;
+    
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 auto;
 }
+
 
 
 nav {
@@ -59,7 +62,7 @@ nav {
             .nav_menu {
                 flex-wrap: nowrap;
 
-                a {}
+                
             }
         }
 
@@ -68,10 +71,15 @@ nav {
 
 
 }
+.container{
+    max-width: 1200px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
 
 header {
     .header {
-        max-width: 1200px;
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -186,5 +194,38 @@ header {
             }
         }
 
+    }
+}
+section{
+    
+    display: flex;
+
+    .section{
+        max-width: 1200px;
+        height: 334px;
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        .section_top{
+            display: flex;
+            align-items: center;
+            h1{
+                align-items: center;
+                width: 119px;
+                height: 20px;
+                font-weight: 400;
+                
+            }
+        }
+        .section_img{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 90px;
+            
+        }
     }
 }

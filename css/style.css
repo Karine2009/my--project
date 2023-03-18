@@ -116,4 +116,32 @@ header .header .header_btns a {
   header .header .header_right .header_right_img img {
     width: 100%;
   }
+}
+
+section {
+  display: flex;
+}
+section .section {
+  max-width: 1200px;
+  height: 334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 600px;
+}
+section .section .section_top {
+  display: flex;
+  align-items: center;
+}
+section .section .section_top h1 {
+  align-items: center;
+  width: 119px;
+  height: 20px;
+  font-weight: 400;
+}
+section .section .section_img {
+  display: flex;
+  align-items: center;
+  gap: 110px;
 }/*# sourceMappingURL=style.css.map */
