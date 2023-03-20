@@ -23,7 +23,7 @@ nav .nav .nav_menu {
   justify-content: space-between;
   align-items: center;
 }
-nav .nav .nav_menu p {
+nav .nav .nav_menu a {
   display: flex;
   align-items: center;
   width: 556px;
@@ -336,4 +336,76 @@ main .mit_yale button {
   margin-left: 422px;
   padding: 15px 30px 16px 30px;
   text-decoration: none;
+}
+main .all_natures {
+  margin-left: 100px;
+  margin: 210px;
+  font-family: roboto;
+}
+main .all_natures .natures {
+  margin-left: 100px;
+}
+main .all_natures .natures h4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.825px;
+  text-transform: uppercase;
+  color: #000000;
+}
+main .all_natures .natures h1 {
+  font-size: 54px;
+  line-height: 64.8px;
+  letter-spacing: 0.6px;
+  color: #000000;
+  font-weight: 400;
+  width: 451px;
+  height: 130px;
+}
+main .all_natures .all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .all_natures .all .items .item {
+  margin-top: 68px;
+  margin-left: 200px;
+}
+main .all_natures .all .items .item h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+main .all_natures .all .items .item p {
+  width: 381px;
+  height: 108px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  color: #000000;
+}
+main .all_natures .all .img img {
+  margin-bottom: 273px;
+}
+main .img_block a {
+  display: block;
+  width: 481px;
+  height: 36px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+  margin-left: 350px;
+  margin-bottom: 29px;
+}
+main .img_block .items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
