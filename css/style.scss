@@ -290,35 +290,35 @@ main {
 
             }
 
-            .btns {
-                margin-top: 50px;
+            
 
-                a {
-                    font-family: Roboto;
-                    width: 147px;
-                    height: 47px;
-                    font-weight: 400;
-                    font-size: 13px;
-                    line-height: 16px;
-                    letter-spacing: 0.71px;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    color: $white1;
+                button {
+                    font-size: 16px;
                     background: $black1;
-                    padding: 15px 30px 15px 30px;
+                    color: $white1;
+                    text-align: center;
+                    letter-spacing: 0.715px;
+                    text-transform: uppercase;
+                    line-height: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    padding: 15px 30px 16px 30px;
+                    margin-top: 64px;
 
                 }
-            }
+            
 
         }
 
-        .proven {
+        
             .img {
                 width: 600px;
                 height: 600px;
             }
 
-        }
+            
+
+        
     }
 
     .wrapper_parent {
