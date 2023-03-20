@@ -244,6 +244,7 @@ main .wrapper_parent .child svg {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 main .mit_yale {
+  max-width: 1200px;
   font-family: Roboto;
   margin-top: 260px;
 }
@@ -272,16 +273,71 @@ main .mit_yale .mit_yale_content h4 {
   text-align: center;
   text-transform: uppercase;
 }
-main .mit_yale .mit_yale_content .mit_yale_items .mit_yale_item h2 {
-  width: 76px;
+main .mit_yale .items {
+  display: flex;
+  margin-top: 110px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+main .mit_yale .items .items_item .item {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .mit_yale .items .items_item .item .item1 h2 {
   font-size: 54px;
+  font-weight: 400;
   line-height: 70px;
   text-align: center;
   letter-spacing: 2.97px;
   text-transform: uppercase;
-  margin-left: 224px;
+  color: #000000;
 }
-main .mit_yale .mit_yale_content .mit_yale_items .mit_yale_item span {
+main .mit_yale .items .items_item .item .item2 {
   display: flex;
+  align-items: center;
+}
+main .mit_yale .items .items_item .item .item2 h3 {
   font-size: 32px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 2.97px;
+  text-transform: uppercase;
+  color: #000000;
+}
+main .mit_yale .items .items_item .item .item2 h2 {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 2.97px;
+  text-transform: uppercase;
+  color: #000000;
+}
+main .mit_yale .items .items_item .text {
+  font-family: Roboto;
+}
+main .mit_yale .items .items_item .text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #000000;
+  margin-bottom: 110px;
+}
+main .mit_yale button {
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.715px;
+  text-transform: uppercase;
+  margin-left: 422px;
+  padding: 15px 30px 16px 30px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

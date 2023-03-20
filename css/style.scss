@@ -13,7 +13,7 @@ $mobileS: 480px;
 
 * {
     box-sizing: border-box;
-    
+
 }
 
 .container {
@@ -26,6 +26,7 @@ $mobileS: 480px;
 
 nav {
     width: 100%;
+
     .nav {
         display: flex;
         justify-content: space-between;
@@ -60,12 +61,12 @@ nav {
 
         .nav {
             .nav_menu {
-                p{
+                p {
                     flex-wrap: wrap;
                 }
-                
 
-                
+
+
             }
         }
 
@@ -74,7 +75,8 @@ nav {
 
 
 }
-.container{
+
+.container {
     max-width: 1200px;
     padding: 0px 10px;
     margin: 0 auto;
@@ -82,7 +84,7 @@ nav {
 
 header {
     .header {
-        
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -154,7 +156,7 @@ header {
     }
 
     @media screen and (max-width:$tablet) {
-        
+
         flex-wrap: wrap;
 
         .header {
@@ -174,8 +176,8 @@ header {
                 }
 
                 p {
-                    width:300px;
-                    
+                    width: 300px;
+
 
                 }
             }
@@ -186,9 +188,10 @@ header {
 
                 }
             }
-            .header_right{
-               .header_right_img {
-                    img{
+
+            .header_right {
+                .header_right_img {
+                    img {
                         width: 100%;
                     }
                 }
@@ -199,32 +202,33 @@ header {
 }
 
 
-main{
+main {
     margin-top: 281px;
 
-    .top_section{
-        
+    .top_section {
+
         align-items: center;
-        
-        .section_top{
+
+        .section_top {
             margin-top: 281px;
-            h1{
+
+            h1 {
                 display: flex;
-               align-items: center;
-               justify-content: space-between;
-               margin-left: 540px;
-               margin-right: 541px;
-               width: 119px;
-               font-weight: 400;
-               letter-spacing: 0.82px;
-               text-transform: uppercase;
-               font-size: 15px;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: 540px;
+                margin-right: 541px;
+                width: 119px;
+                font-weight: 400;
+                letter-spacing: 0.82px;
+                text-transform: uppercase;
+                font-size: 15px;
             }
-            
+
 
         }
 
-        .section_img{
+        .section_img {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -233,27 +237,28 @@ main{
             margin-top: 39px;
             gap: 90px;
 
-            @media screen and (max-width:$tablet){
+            @media screen and (max-width:$tablet) {
                 align-items: center;
                 display: flex;
                 flex-wrap: wrap;
             }
-            
+
 
         }
     }
 
-    .clinicali_proven{
+    .clinicali_proven {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         margin-top: 250px;
-        .clinicali_proven1{
+
+        .clinicali_proven1 {
             align-items: center;
             gap: 50px;
-            
-            h1{
+
+            h1 {
                 display: block;
                 width: 221px;
                 font-size: 18px;
@@ -262,9 +267,10 @@ main{
                 letter-spacing: 0.99px;
                 text-transform: uppercase;
                 color: $black1;
-                
+
             }
-            h2{
+
+            h2 {
                 display: block;
                 width: 138px;
                 height: 65px;
@@ -274,18 +280,20 @@ main{
                 letter-spacing: 0.6px;
             }
 
-            p{
+            p {
                 width: 400px;
                 height: 162px;
                 font-size: 18px;
                 line-height: 27px;
                 letter-spacing: 0.36px;
                 color: $black1;
-                
+
             }
-            .btns{
+
+            .btns {
                 margin-top: 50px;
-                a{
+
+                a {
                     font-family: Roboto;
                     width: 147px;
                     height: 47px;
@@ -298,70 +306,76 @@ main{
                     color: $white1;
                     background: $black1;
                     padding: 15px 30px 15px 30px;
-    
-                }  
+
+                }
             }
-            
+
         }
-        .proven{
-            .img{
+
+        .proven {
+            .img {
                 width: 600px;
                 height: 600px;
             }
-            
+
         }
     }
 
-    .wrapper_parent{
+    .wrapper_parent {
         position: relative;
         max-width: 1200px;
         background: #F7F5F0;
         margin-top: 45px;
-        .parent{
-            
+
+        .parent {
+
             width: auto;
             height: 100%;
             margin-left: 100px;
 
         }
-        .child{
+
+        .child {
             position: absolute;
             left: 569px;
             top: 247px;
-            
-            svg{
-                
+
+            svg {
+
                 z-index: 1;
                 border: 1px solid rgba(0, 0, 0, 0.1);
-                
+
             }
         }
     }
 
-    .mit_yale{
-        
+    .mit_yale {
+        max-width: 1200px;
+
         font-family: Roboto;
         margin-top: 260px;
-        .mit_yale_content{
-            
+
+        .mit_yale_content {
+
             display: flex;
-            
+
             flex-direction: column;
             align-items: center;
-            
-            h1{
+
+            h1 {
                 width: 812px;
                 height: 39px;
                 font-size: 30px;
                 line-height: 39px;
-                
+
                 font-weight: 400;
                 text-align: center;
                 letter-spacing: 0.6px;
                 color: $black1;
 
             }
-            h4{
+
+            h4 {
                 width: 444px;
                 height: 23px;
                 font-size: 15px;
@@ -372,34 +386,96 @@ main{
                 text-transform: uppercase;
 
             }
-            .mit_yale_items{
-                
-                
-                .mit_yale_item{
 
-                    h2{
+        }
+
+        .items{
+            display: flex;
+            margin-top: 110px;
+            align-items: center;
+
+            justify-content: space-between;
+            align-items: center;
+            .items_item{
+                
+                .item{
+                    max-width: 1200px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    
+                    .item1{
                         
-                        width: 76px;
-                        font-size: 54px;
-                        line-height: 70px;
-                        text-align: center;
-                        letter-spacing: 2.97px;
-                        text-transform: uppercase;
-                        margin-left: 224px;
-                        
+                        h2{
+                            font-size: 54px;
+                            font-weight: 400;
+                            line-height: 70px;
+                            text-align: center;
+                            letter-spacing: 2.97px;
+                            text-transform: uppercase;
+                            color: $black1;
+                        }
                     }
-                    span{
+                    .item2{
                         display: flex;
-                        font-size: 32px;
+                        
+                        align-items: center;
+                        
+                        h3{
+                            font-size: 32px;
+                            font-weight: 400;
+                            line-height: 42px;
+                            text-align: center;
+                            letter-spacing: 2.97px;
+                            text-transform: uppercase;
+                            color: $black1;
+                            
+                        }
+
+                        h2{
+                            font-size: 54px;
+                            font-weight: 400;
+                            line-height: 70px;
+                            text-align: center;
+                            letter-spacing: 2.97px;
+                            text-transform: uppercase;
+                            color: $black1;
+                        }
+                        
                     }
+                }
+                .text{
+                    font-family: Roboto;
+
                     p{
                         
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 27px;
+                        text-align:center ;
+                        letter-spacing: 0.36px;
+                        color: $black1;
+                        margin-bottom: 110px;
                     }
-
                 }
             }
         }
+        button{
+            text-align: center;
+            background: $black1;
+            color: $white1;
+            font-size: 13px;
+            line-height: 16px;
+            letter-spacing: 0.715px;
+            text-transform: uppercase;
+            margin-left: 422px;
+           
+            padding: 15px 30px 16px 30px;
+            text-decoration: none;
+        }
     }
 
-    
+
+
 }
