@@ -47,7 +47,6 @@ nav .nav .nav_menu a {
 
 .container {
   max-width: 1200px;
-  padding: 0px 10px;
   margin: 0 auto;
 }
 
@@ -227,7 +226,6 @@ main .wrapper_parent {
 }
 main .wrapper_parent .parent {
   width: auto;
-  height: 100%;
   margin-left: 100px;
 }
 main .wrapper_parent .child {
@@ -338,8 +336,9 @@ main .mit_yale button {
   text-decoration: none;
 }
 main .all_natures {
-  margin-left: 100px;
-  margin: 210px;
+  padding-top: 210px;
+  justify-content: space-between;
+  align-items: center;
   font-family: roboto;
 }
 main .all_natures .natures {
@@ -392,20 +391,101 @@ main .all_natures .all .img img {
   margin-bottom: 273px;
 }
 main .img_block a {
-  display: block;
-  width: 481px;
-  height: 36px;
   font-size: 27px;
   font-weight: 400;
   line-height: 35px;
   text-align: center;
   letter-spacing: 0.6px;
   color: #000000;
-  margin-left: 350px;
-  margin-bottom: 29px;
+  padding-left: 350px;
+  padding-top: 30px;
 }
 main .img_block .items {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 3px;
+}
+
+footer .footer {
+  display: flex;
+  gap: 171px;
+  background: #000000;
+  padding-bottom: 39px;
+}
+footer .footer .footer_content h1 {
+  font-family: Roboto;
+  width: 329px;
+  font-size: 54px;
+  line-height: 70px;
+  color: #F7F5F0;
+  margin-left: 100px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  font-style: normal;
+}
+footer .footer .footer_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer .footer_item h4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.71px;
+  color: #808080;
+}
+footer .footer .footer_item ul li {
+  list-style-type: none;
+}
+footer .footer .footer_item ul li a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer .footer_info .footer_info_top {
+  background: #000000;
+  padding-top: 222px;
+  padding-bottom: 89px;
+}
+footer .footer_info .footer_info_top ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 600px;
+  gap: 36px;
+}
+footer .footer_info .footer_info_top ul li a {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.71px;
+  width: 61px;
+  height: 39px;
+}
+footer .footer_info_bottom {
+  display: flex;
+  justify-content: space-between;
+  background: #000000;
+  padding-left: 100px;
+  padding-top: 39px;
+}
+footer .footer_info_bottom p {
+  size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.71px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+footer .footer_info_bottom .bottom p {
+  margin-left: 317px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */

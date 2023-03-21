@@ -3,6 +3,7 @@
 $black1: #000000;
 $white1: #FFFFFF;
 $white2: #F7F5F0;
+$nativblack:#808080;
 
 $tablet: 1024px;
 $mobileL: 768px;
@@ -20,6 +21,7 @@ $mobileS: 480px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 auto;
+    
 }
 
 
@@ -78,7 +80,7 @@ nav {
 
 .container {
     max-width: 1200px;
-    padding: 0px 10px;
+   // padding: 0px 10px;
     margin: 0 auto;
 }
 
@@ -328,10 +330,9 @@ main {
         margin-top: 45px;
 
         .parent {
-
             width: auto;
-            height: 100%;
             margin-left: 100px;
+            
 
         }
 
@@ -478,12 +479,15 @@ main {
 
     .all_natures{
         
+        padding-top: 210px;
+        justify-content: space-between;
+        align-items: center;
         
-        margin-left: 100px;
-        margin: 210px;
+        
         font-family: roboto;
         .natures{
             margin-left: 100px;
+            
             
             h4{
                 font-size: 15px;
@@ -509,6 +513,7 @@ main {
         
         .all{
             display: flex;
+            
             justify-content: space-between;
             align-items: center;
             
@@ -551,25 +556,27 @@ main {
     }
 
     .img_block{
-        
+       
+    
         
         a{
-            display: block;
-            width: 481px;
-            height: 36px;
+            
+           
             font-size: 27px;
             font-weight: 400;
             line-height: 35px;
             text-align: center;
             letter-spacing: 0.6px;
             color: $black1;
-            margin-left: 350px;
-            margin-bottom: 29px;
+            padding-left: 350px;
+            padding-top: 30px;
         }
         .items{
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 3px;
+            
         
         }
     }
@@ -577,3 +584,130 @@ main {
 
 
 }
+
+    
+ footer{ 
+     
+.footer{
+    display: flex;
+    gap: 171px;
+    background: $black1;
+    padding-bottom: 39px;
+
+    .footer_content{
+        h1{
+            font-family: Roboto;
+            width: 329px;
+            
+            font-size: 54px;
+            line-height: 70px;
+            color: $white2;
+            margin-left: 100px;
+            font-weight: 400;
+            letter-spacing: 0.6px;
+            font-style: normal;
+    }
+}
+    
+
+    .footer_item{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+        
+        
+        h4{
+            
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0.71px;
+            color: $nativblack;
+        
+            
+        }
+        ul{
+            li{
+                list-style-type: none;
+                
+                a{
+                    
+                    display: block;
+                    text-decoration: none;
+                    color: $white1;
+                    
+                }
+            }
+        }
+    }
+}
+.footer_info{
+    
+    .footer_info_top{
+        background: $black1;
+        padding-top: 222px;
+        padding-bottom: 89px;
+    
+        ul{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 600px;
+            gap: 36px;
+
+            li{
+                a{
+                    font-family: Roboto;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                    color: $white1;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 0.71px;
+                    width: 61px;
+                    height: 39px;
+                    
+                    
+                    
+
+
+                }
+            }
+        }
+    }
+}
+
+
+.footer_info_bottom{
+    display: flex;
+    justify-content: space-between;
+    background: $black1;
+    padding-left: 100px;
+    padding-top: 39px;
+    p{
+        size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.71px;
+        font-weight: 400;
+        color: $white1;
+        
+    }
+    .bottom{
+        
+        p{
+           
+            margin-left: 317px;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: $white1;
+
+        }
+
+    }
+}
+}
+
